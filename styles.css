@@ -69,7 +69,7 @@ header {
 .carousel-container {
   
   width: 100%;
-  max-width: 1800px;
+  max-width: 1500px;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
@@ -311,6 +311,7 @@ footer p {
   .navbar ul {
       flex-direction: column;
       align-items: flex-start;
+    
   }
 }
 
@@ -331,6 +332,14 @@ footer p {
 }
 
 @media (max-width: 768px) {
+
+  .weekly-products{
+    flex-direction: column;
+  }
+
+  .carousel-container{
+    width: 100%;
+  }
   .navbar {
       flex-direction: column;
       align-items: flex-start;
@@ -391,6 +400,8 @@ footer p {
 }
 
 @media (max-width: 576px) {
+
+ 
   .product-card, .featured-item {
       width: 100%;
   }
