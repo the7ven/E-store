@@ -403,4 +403,18 @@ footer p {
   .icons {
       margin-top: 10px;
   }
+
+  .laptop img{
+    width: 100px;
+  }
+  
+  .boom-box img{
+    width: 100px;
+  }
+  
+  .banner img{
+    width: 150px;
+  }
+  
+
 }
