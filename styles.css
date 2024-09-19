@@ -75,7 +75,7 @@ header {
   position: relative;
 }
 .carousel {
-  margin-top: 80px;
+  margin-top: 40px;
   display: flex;
   align-items:center;
   min-height: 80vh;
@@ -148,14 +148,14 @@ header {
 }
 
 .products, .featured {
-  padding: 60px 20px;
+  padding: 40px 10px;
   text-align: center;
 }
 
 .product-grid, .featured-grid {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 20px;
   margin-top: 20px;
 }
 
@@ -167,7 +167,7 @@ header {
 }
 
 .product-card img, .featured-item img {
-  width: 200px;
+  width: 150px;
   height: auto;
   margin-bottom: 30px;
   transition: all ease-in-out .3s;
@@ -256,7 +256,7 @@ footer {
 
 .title-category{
   padding: 50px;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -333,6 +333,16 @@ footer p {
 
 @media (max-width: 768px) {
 
+  body{
+    justify-content: center;
+  }
+   
+   .carousel{
+    width: 100%;
+    align-items: center;
+   }
+
+
   .weekly-products{
     flex-direction: column;
   }
@@ -367,10 +377,7 @@ footer p {
       flex-direction: column;
   }
 
-  .banner img{
-    width: 200px;
-    
-  }
+ 
 
   .banner .btn{
     font-size: 15px;
@@ -396,6 +403,10 @@ footer p {
   .subscribe button {
       width: 100%;
       margin-top: 10px;
+  }
+
+  .category-icons img{
+    width: 25px;
   }
 }
 
