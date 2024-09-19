@@ -345,6 +345,10 @@ footer p {
   width: 100px;
 }
 
+.banner img{
+  width: 150px;
+}
+
 .category{
   flex-direction: column;
   flex-wrap: wrap;
