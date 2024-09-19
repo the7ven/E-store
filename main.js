@@ -77,10 +77,3 @@ ScrollReveal().reveal('.category', {
 
 
 
-ScrollReveal().reveal('footer', {
-    origin: 'top',
-    distance: '50px',
-    duration: 1000,
-    delay: 400,
-    reset: false
-});
