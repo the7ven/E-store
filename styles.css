@@ -1,45 +1,5 @@
 
 
-/* Media Queries */
-@media (max-width: 768px) {
-  .navbar ul {
-      flex-direction: column;
-  }
-
-  .category-icons {
-      flex: 1 1 calc(50% - 20px);
-  }
-
-  .footer-content {
-      flex-direction: column;
-      text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .category-icons {
-      flex: 1 1 100%;
-  }
-  
-  .carousel img {
-      height: auto;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * {
   margin: 0;
   padding: 0;
